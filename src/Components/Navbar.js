@@ -18,13 +18,13 @@ const Styles = styled.div`
 export const NavigatorBar = () => (
     <Styles>
         <Navbar expand="lg">
-            <Navbar.Brand href="/portfolio/">PortFolio</Navbar.Brand>
+            <Navbar.Brand href="/">PortFolio</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ml-auto">
-                    <Nav.Item><Nav.Link href="/portfolio/">Home</Nav.Link></Nav.Item>
-                    <Nav.Item><Nav.Link href="/portfolio/about">About</Nav.Link></Nav.Item>
-                    <Nav.Item><Nav.Link href="/portfolio/contact">Contact</Nav.Link></Nav.Item>
+                    <Nav.Item><Nav.Link href="/">Home</Nav.Link></Nav.Item>
+                    <Nav.Item><Nav.Link href="/about">About</Nav.Link></Nav.Item>
+                    <Nav.Item><Nav.Link href="/contact">Contact</Nav.Link></Nav.Item>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
