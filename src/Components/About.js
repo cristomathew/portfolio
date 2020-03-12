@@ -1,5 +1,6 @@
 import React from 'react'
 import Skills from './Skills';
+import '../Styling/scroll.css'
 const SKILLS = [
     {type: "JavaScript", level: 84},
     {type: "React.js", level: 87},
@@ -9,7 +10,6 @@ const SKILLS = [
     {type: "HTML", level: 99},
     {type: "CSS", level: 90}
   ];
-  
 export const About = () => (
     <div>
         <h2>About Me</h2>

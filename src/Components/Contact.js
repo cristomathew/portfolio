@@ -6,9 +6,14 @@ var txt = 'Hi I like to Devolop, Code, Create'; /* The text */
 var speed = 50; /* The speed/duration of the effect in milliseconds */
 
 function typenew() {
-    document.getElementById("demo").innerHTML= "";
-    i=0;
+    
+    if(i >= txt.length){
+      i=i;
+    }
+    else{
     typeWriter();
+    }
+    
 }
 function typeWriter() {
     

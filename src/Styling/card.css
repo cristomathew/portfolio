@@ -62,12 +62,14 @@
   }
   .card-stats {
     grid-area: stats; 
+    padding-left: 30px;
+    padding-top: 2px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
-    background: url("../assets/back1.png");
+    background: rgba(5, 156, 161, 0.767);
     background-size: contain;
   }
   .card-stats .stat {
@@ -79,7 +81,7 @@
     padding:10px;
   }
   .card:hover {
-    transform: scale(1.15);
+    transform: scale(1.05);
     box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
   }
      
