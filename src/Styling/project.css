@@ -40,7 +40,8 @@
   .card {
     color: inherit;
     cursor: pointer;
-    width: calc(33% - 2rem);
+    width: 280px;
+    /* width: calc(33% - 2rem); */
     min-width: calc(33% - 2rem);
     height: 400px;
     min-height: 400px;
