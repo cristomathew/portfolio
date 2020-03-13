@@ -49,14 +49,14 @@
     margin: 1rem;
     position: relative;
   }
-  @media screen and (max-width: 800px) {
-    .card {
-      min-width: calc(50% - 2rem);
+  @media screen and (max-width: 400px){
+    .card{
+      width: 250px;
     }
   }
-  @media screen and (max-width: 500px) {
-    .card {
-      min-width: 100%;
+  @media screen and (max-width: 320px){
+    .card{
+      width: 180px;
     }
   }
   
