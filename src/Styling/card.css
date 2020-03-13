@@ -1,4 +1,4 @@
-.card{
+.infocard{
     display: grid;
     width: 300px;
     grid-template-columns: 300px;
@@ -13,7 +13,7 @@
     cursor: pointer;
     margin:20px;
 }
-.card-image{
+.infocard-image{
     grid-area: image;
     background: url("../assets/back2.png") no-repeat;
     border-top-left-radius: 15px;
@@ -43,24 +43,24 @@
     border-size: cover;
     background-size: contain;
 }
-.card-text {
+.infocard-text {
     grid-area: text;
     margin: 25px;
   }
-  .card-text .date {
+  .infocard-text .date {
     color: rgb(255, 7, 110);
     font-size:13px;
   }
-  .card-text p {
+  .infocard-text p {
     color: grey;
     font-size:15px;
     font-weight: 300;
   }
-  .card-text h2 {
+  .infocard-text h2 {
     margin-top:0px;
     font-size:28px;
   }
-  .card-stats {
+  .infocard-stats {
     grid-area: stats; 
     padding-left: 30px;
     padding-top: 2px;
@@ -72,7 +72,7 @@
     background: rgba(5, 156, 161, 0.767);
     background-size: contain;
   }
-  .card-stats .stat {
+  .infocard-stats .stat {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -80,7 +80,7 @@
     color: white;
     padding:10px;
   }
-  .card:hover {
+  .infocard:hover {
     transform: scale(1.05);
     box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
   }
