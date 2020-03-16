@@ -5,18 +5,25 @@ import styled from 'styled-components';
 const Styles = styled.div`
     .navbar {
         background-color: #222;
+        position: fixed;
+        width: 100%;
         &:hover{
             color: white;
         }
     }
     .navbar-brand, .navbar-nav .nav-link {
         color: #bbb;
-    
         &:hover{
         color: white;
         font-weight: bold;
         }
     }
+    @media only screen and (max-width: 767px) {
+        .navbar {
+          position:relative;
+        }
+        
+      }
 `;
 export const NavigatorBar = () => (
     <Styles>

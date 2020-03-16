@@ -5,7 +5,7 @@ import "@brainhubeu/react-carousel/lib/style.css";
 export const Home = () => (
     <div>
         <h2>Hi My Name is Cristo</h2>
-        <p>Its a pleasure meeting you guys please feel free to check up my website.</p>
+        <p>This is a Website that describes some details about me and will be devoloped further depending on my free time.</p>
         <h3>Some of my projects are:</h3>
         
         <Carousel arrows infinite>

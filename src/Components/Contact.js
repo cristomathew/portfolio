@@ -8,7 +8,7 @@ var speed = 50; /* The speed/duration of the effect in milliseconds */
 function typenew() {
     
     if(i >= txt.length){
-      i=i;
+      i= txt.length;
     }
     else{
     typeWriter();
