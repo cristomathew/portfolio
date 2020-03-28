@@ -2,7 +2,7 @@ import React from 'react';
 import '../Styling/card.css'
 import '../Styling/css/style.css'
 
-export default function Card(props) {
+export const Card = (props) => {
     return (
         <div className="infocard">
             <div className="infocard-image" />
@@ -20,4 +20,4 @@ export default function Card(props) {
     </div>
     )
 }
-
+export default Card
