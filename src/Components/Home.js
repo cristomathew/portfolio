@@ -1,4 +1,4 @@
-import React, {lazy, Suspense} from 'react';
+import React from 'react';
 import Project from './Project';
 import Carousel from "@brainhubeu/react-carousel";
 import "@brainhubeu/react-carousel/lib/style.css";
@@ -8,7 +8,12 @@ export const Home = () => (
         <p>This is a Website that describes some details about me and will be devoloped further depending on my free time.</p>
         <h3>Some of my projects are:</h3>
         
-        <Carousel arrows infinite>
+        <Carousel autoPlay={5000} animationSpeed={1000} arrows infinite rtl dots >
+
+            <Project image="https://wallpaperplay.com/walls/full/5/e/b/77588.jpg"
+            front="BS - A Website like Olx" link="https://github.com/cristomathew/B-S"> A website that is similar to Olx built entirely using django
+            the admin page and admin table is customized according to my preferences
+            </Project>
             <Project image="https://mnrpa.org/wp-content/uploads/2014/02/old_books_outdoors-wallpaper-1680x1050.jpg"
             front="Libreo" link="https://github.com/cristomathew/libreo"> A Library Management Application made using Ionic
             which supports both ios and android platform
