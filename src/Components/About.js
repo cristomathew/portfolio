@@ -1,5 +1,5 @@
-import React from 'react'
-import Skills from './Skills';
+import React, {lazy, Suspense}from 'react'
+// import Skills from './Skills';
 import '../Styling/scroll.css'
 const SKILLS = [
     {type: "JavaScript", level: 84},
@@ -11,6 +11,8 @@ const SKILLS = [
     {type: "HTML", level: 99},
     {type: "CSS", level: 90}
   ];
+const Skills = lazy(() => import('./Skills'))
+
 export const About = () => (
     <div>
         <h1>About Me</h1>
@@ -22,6 +24,9 @@ export const About = () => (
              ever since.I’m also enthusiastic about React Vue and Ionic and has used 
              it to make Web apps. 
              </h4>
+        <Suspense fallback={<h1>Still Loading…</h1>}>
         <Skills skills={SKILLS} width="89%" />
+        </Suspense>
     </div>
 )
+export default About

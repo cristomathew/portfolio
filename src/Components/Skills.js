@@ -41,7 +41,7 @@ export const Skills = (props) => {
   useEffect(() => {
     setTimeout(() => {
       setcollapsed(false)
-    }, 800)},[]);
+    }, 1500)},[]);
     
   const { hue, saturation, skills } = props;
   return(

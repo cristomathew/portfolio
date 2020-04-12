@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {lazy, Suspense} from 'react';
 import Project from './Project';
 import Carousel from "@brainhubeu/react-carousel";
 import "@brainhubeu/react-carousel/lib/style.css";
@@ -21,7 +21,6 @@ export const Home = () => (
             alike to add details about projects and grade it accordingly
             </Project>
         </Carousel>
-            
        
     </div>
 )
