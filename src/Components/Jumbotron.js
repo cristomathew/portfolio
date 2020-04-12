@@ -97,7 +97,7 @@ export const Jumbotron = () =>(
                 <h1>Cristo Mathew</h1>
                 <h3>
                 <span
-                    class="txt-rotate"
+                    className="txt-rotate"
                     data-period="2000"
                     data-rotate='[ "Imagine.", "Design.", "Code." ]'></span>
                 </h3>

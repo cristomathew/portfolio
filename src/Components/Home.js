@@ -2,19 +2,25 @@ import React from 'react';
 import Project from './Project';
 import Carousel from "@brainhubeu/react-carousel";
 import "@brainhubeu/react-carousel/lib/style.css";
+import Icon from 'react-fa';
 export const Home = () => (
     <div>
         <h2>Hi My Name is Cristo</h2>
         <p>This is a Website that describes some details about me and will be devoloped further depending on my free time.</p>
         <h3>Some of my projects are:</h3>
         
-        <Carousel autoPlay={5000} animationSpeed={1000} arrows infinite rtl dots >
+        <Carousel autoPlay={5000} animationSpeed={1000} arrows infinite rtl dots 
+        arrowLeft={<Icon name="angle-double-left" />}
+        arrowLeftDisabled={<Icon name="angle-left" />}
+        arrowRight={<Icon name="angle-double-right" />}
+        arrowRightDisabled={<Icon name="angle-right" />}
+        addArrowClickHandler>
 
             <Project image="https://wallpaperplay.com/walls/full/5/e/b/77588.jpg"
             front="BS - A Website like Olx" link="https://github.com/cristomathew/B-S"> A website that is similar to Olx built entirely using django
             the admin page and admin table is customized according to my preferences
             </Project>
-            <Project image="https://mnrpa.org/wp-content/uploads/2014/02/old_books_outdoors-wallpaper-1680x1050.jpg"
+            <Project image="http://www.lisbdnet.com/wp-content/uploads/2018/08/Digital-Library.jpg"
             front="Libreo" link="https://github.com/cristomathew/libreo"> A Library Management Application made using Ionic
             which supports both ios and android platform
             </Project>

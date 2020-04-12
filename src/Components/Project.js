@@ -4,7 +4,7 @@ import '../Styling/project.css'
 export const Project = (props) =>{
         return (
         <div className="content">
-            <a className="card" href="#!">
+            <a className="card" href="#!" >
                 <div className="front" style={{ backgroundImage:`url(${props.image})`}}>
                     <p>{props.front}</p>
                 </div>

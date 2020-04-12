@@ -7,12 +7,14 @@ import {NoMatch} from './Components/NoMatch';
 import {Layout } from './Components/Layout';
 import {NavigatorBar} from './Components/Navbar';
 import {Jumbotron} from './Components/Jumbotron';
-
+import './App.css'
 
 function App() {
   return (
     <React.Fragment>
       <NavigatorBar />
+
+      <div className="layout">
       <Jumbotron />
       <Layout>
       <Router>
@@ -24,6 +26,7 @@ function App() {
         </Switch>
       </Router>
       </Layout>
+      </div>
     </React.Fragment>
   );
 }
