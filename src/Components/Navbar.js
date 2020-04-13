@@ -6,6 +6,7 @@ const Styles = styled.div`
     .navbar {
         background-color: #222;
         position: fixed;
+        z-index:1;
         width: 100%;
         &:hover{
             color: white;
@@ -27,14 +28,14 @@ const Styles = styled.div`
 `;
 export const NavigatorBar = () => (
     <Styles>
-        <Navbar expand="lg"  variant="dark">
+        <Navbar collapseOnSelect  expand="lg"  variant="dark">
             <Navbar.Brand href="/">PortFolio</Navbar.Brand>
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
-            <Navbar.Collapse id="basic-navbar-nav">
+            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+            <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="ml-auto">
-                    <Nav.Item><Nav.Link href="/">Home</Nav.Link></Nav.Item>
-                    <Nav.Item><Nav.Link href="/about">About</Nav.Link></Nav.Item>
-                    <Nav.Item><Nav.Link href="/contact">Contact</Nav.Link></Nav.Item>
+                    <Nav.Link href="/">Home</Nav.Link>
+                    <Nav.Link href="/about">About</Nav.Link>
+                    <Nav.Link href="/contact">Contact</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
