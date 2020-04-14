@@ -25,8 +25,10 @@ import ContactForm from './email'
 // }
 
 export const Contact = () => (
-        <div className="container row contactrow">
+        <div className="container">
+            <div className="row contactrow">
             <div className="Card col-xs-5 col-sm-6 col-lg-4"><Card /></div>
             <div className="col-xs-7 col-sm-6 col-lg-8 contact"><ContactForm /></div>
+            </div>
         </div>
 )
