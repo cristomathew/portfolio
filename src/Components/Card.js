@@ -10,7 +10,7 @@ export const Card = (props) => {
             <div className="row intro grid-item"><h2>Cristo Mathew</h2>
             
             </div>
-            <div className="row grid-item"><FontAwesomeIcon icon={faPhoneAlt} size="2x" /> :<h3>9383409181</h3></div>
+            <div className="row grid-item"><FontAwesomeIcon icon={faPhoneAlt} size="2x" /> :::<h3>9383409181</h3></div>
             <div className="row footer grid-item">
                 <h4>find me at:</h4>&nbsp;
                 <a class="About-links" target="_blank" rel="noopener noreferrer" href="https://github.com/cristomathew"><FontAwesomeIcon icon={faGithub} size="3x" spin /></a>	&nbsp; &nbsp; &nbsp; &nbsp;
