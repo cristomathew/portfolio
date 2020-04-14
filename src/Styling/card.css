@@ -1,4 +1,44 @@
-.infocard{
+.Card{
+  background-image: linear-gradient(to top, #8c07f7, #753af9, #5f4ff8, #4c5ef4, #3f6aed, #2577ee, #0682ed, #008cea, #009bed, #00a9ec, #00b5e9, #00c1e5);
+  border-radius: 10px;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  row-gap:10px;
+  align-content: center;
+  margin: auto;
+}
+.bg{
+  
+}
+.intro{
+  color: white;
+}
+.footer{
+  display: flex;
+  flex-direction: row;
+  margin-top: 120px;
+  align-items: center;
+}
+.footer h4{
+  color: #b0612d;
+}
+.aboutcard{
+  display: flexbox;
+}
+.image{
+  width: 4vw;
+  height: 4vh;
+}
+.About-links{
+  color: rgb(28, 25, 75);
+}
+.grid-item{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+/* .infocard{
     display: grid;
     width: 300px;
     grid-template-columns: 300px;
@@ -84,4 +124,4 @@
     transform: scale(1.05);
     box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
   }
-     
+      */

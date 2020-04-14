@@ -7,6 +7,14 @@ h1, h2, h3, h4{
 p{
   color: #f5f5ce;
 }
+.contact{
+  background-color: rgba(255,255,255,0.4);
+  border-radius: 10px;
+}
+.contactrow{
+  display: grid;
+  column-gap: 10px;
+}
 /* .App {
   text-align: center;
 }
