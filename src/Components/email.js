@@ -10,7 +10,7 @@ class ContactForm extends Component {
   }
 handleSubmit(e) {
     e.preventDefault()
-    alert('Thanks for contacting me Ill get back to asp')
+    alert('Thanks for contacting me Ill get back to asap')
     // eslint-disable-next-line 
     const { name, email, subject, message } = this.state 
     let templateParams = {
